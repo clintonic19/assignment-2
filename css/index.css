@@ -105,7 +105,7 @@ position: absolute;
 
 .credit-card input{
   height: 36px;
-  width: 180px;
+  width: 240px;
   outline: none;
   padding:  10px;
   border-radius: 1px;
@@ -115,16 +115,8 @@ position: absolute;
   border: none;
 }
 
-.credit-card1 input{
-  height: 36px;
-  width: 80px;
-  outline: none;
-  padding:  10px;
-  border-radius: 1px;
-  font-size: 1rem;
-  color: #707070;
-  background: #f1f1f1;
-  border: none;
+.credit-card .new{
+  margin-top: 18px;
 }
 
 /* Styling of the forms-control session*/
