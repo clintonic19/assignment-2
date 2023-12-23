@@ -1,0 +1,456 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* overall container */
+.container{
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    width: 1140px;
+    height: 1170px;
+    top: -139;
+    left: -101px;
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .nav{
+    width: 1140px;
+    height: 75px;
+    top: 50px;
+    position: absolute;
+    z-index: 999;
+    background: rgba(245, 248, 250, 1);
+    text-decoration:  none ;
+    border-bottom: 3px #ddd;
+  }
+
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;   
+  }
+    .nav li{
+        float: right;
+        padding: 0 20px;
+        line-height: 60px;
+        text-decoration:  none ;
+        display: inline-flex;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        font-family: lato;
+        font-weight: 400px;
+        
+    }
+
+    /* styling of the account session */
+    .account input{
+      border-radius: 4px; 
+      width: 110px; 
+      height: 50px;
+      font-size: 1.5rem;
+      padding: 10px;
+      text-align: center;
+      margin: 5px;
+      font-family: lato;
+      background: none;
+    }
+    .account{
+      float: right; 
+      padding: 0 5px; 
+      border-radius: 10px; 
+      font-family: lato;
+      font-weight: 400px;
+      font-size: 1.5rem;
+    }
+    .nav li a{
+           text-decoration:  none ;
+           color: black;
+    }
+  
+    /* styling of container two(2) that carries the form fields etc */
+.container-2{
+width: 892px;
+height: 845px;
+margin-top: 200px ;
+margin-left: 125px;
+border-radius: 0px, 6px, 6px, 0px;
+background: rgba(245, 248, 250, 1);
+position: absolute;
+}
+
+/* styling the checkout element */
+
+.checkout{
+  margin-left: 30px; 
+  text-shadow: 20px; 
+  box-shadow:  #000000 25%;
+}
+
+/* styling of the form */
+.form1{
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+/* styling the credit card session of the form element */
+.cvv{
+  margin-top: 18px;
+}
+
+.credit-card input{
+  height: 36px;
+  width: 180px;
+  outline: none;
+  padding:  10px;
+  border-radius: 1px;
+  font-size: 1rem;
+  color: #707070;
+  background: #f1f1f1;
+  border: none;
+}
+
+.credit-card1 input{
+  height: 36px;
+  width: 80px;
+  outline: none;
+  padding:  10px;
+  border-radius: 1px;
+  font-size: 1rem;
+  color: #707070;
+  background: #f1f1f1;
+  border: none;
+}
+
+/* Styling of the forms-control session*/
+.form-control{
+  width: 238px;
+  display: inline-block;
+  justify-content: space-between;
+  padding: 20px;
+  top: 400px;
+}
+
+.form-control label{
+  color: #333;
+left: 50px; 
+}
+
+/* styling of form-control input in the form */
+.form-control input{
+  height: 36px;
+  width: 226px;
+  outline: none;
+  padding:  10px;
+  border-radius: 1px;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  background: #f1f1f1;
+  border: none;
+}
+
+/* styling of the numbering*/
+
+.numcontainer{
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper{
+    padding-left: 20px;
+    float: left;
+}
+
+/* styling of the year and dollar signs */
+.year{
+  margin-left: 10px; 
+  padding: 20px; 
+  display: flex; 
+  color: white;
+}
+
+/* styling shapes */
+
+.combinedShapes {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: white;
+  width: 141px;
+  height: 96px;
+  font-family: lato;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01px;
+  font-weight: 400px;
+  margin-top: -15%;
+}
+
+.combinedShapes1{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: white;
+  width: 141px;
+  height: 96px;
+  font-family: lato;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01px;
+  font-weight: 400px;
+  margin-top: -18%;
+}
+
+.text{
+  padding-left: 10px;
+  float: left;
+}
+
+/* styling of renew year */
+.renew1{
+  width: 227px;
+  height: 96px;
+  margin-left: 30px;
+  color: #fff;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  font-style: italic;
+  letter-spacing: -0.01px;
+}
+
+.renew{
+  width: 227px;
+  height: 96px;
+  top: 43px;
+  color: #fff;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.01px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.renew a{
+  width: 227px;
+  height: 96px;
+  top: 43px;
+  color: #fff;
+  font-family: lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.01px;
+  text-decoration: none;
+}
+
+/* styling the paragraph  */
+.p-tag{
+width: 227px;
+height: 96px;
+margin-top: 40px;
+left: 2px;
+margin-left: 30px;
+color: #fff;
+font-family: lato;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+font-style: italic;
+letter-spacing: -0.01px;
+}
+
+/* styling of the email */
+.email input{
+  width: 350px;
+  margin-top: 8px;
+  background: #f1f1f1;
+  margin: 5px 0 22px 0;
+  border: none;
+  font-size: 1rem;
+  color: #707070;
+  border-radius: 1px;
+}
+
+/* styling of container 3 for freelancer */
+.container3{
+  position: absolute;
+  width: 300px;
+  height: 842px;
+  top: 0px;
+  Left: 590px;
+  border-radius: 0px, 6px, 6px, 0px;
+  background: rgba(17, 121, 191, 1);
+  border-radius: 3px
+  }
+
+  /* Styling Button */
+  .btn{
+    margin-left: 50px;
+  }
+.needHelp{
+ margin-left: 50px;
+}
+  
+  /* Styling Button */
+  button {
+     color: #fff;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 21px;
+    width: 476px;
+    height: 48px;
+    padding: 10px;
+    top: 631px;
+    left: 760px;
+    border: none;
+    text-align: center;
+    background: #038E7D;      
+}
+.term-service a{
+  text-decoration: none;
+}
+.poweredby input{
+  margin-left: 25%;
+  margin-top: 40px;
+ border-radius: 6px;
+ font-family: lato;
+ font-size: 1rem;
+ border: none;
+ }
+
+ 
+
+
+
+/* responsiveness */
+
+@media only screen and (max-width: 600px){
+
+  .container{
+    width: 80%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 0px, 6px, 6px, 0px;
+    background: rgba(245, 248, 250, 1);
+    position: absolute;
+  }
+
+  .nav{
+    width: 80%;
+    height: 75px;
+    top: 50px;
+    position: absolute;
+    z-index: 999;
+    background: rgba(245, 248, 250, 1);
+    text-decoration:  none ;
+    border-bottom: 3px #ddd;
+  }
+
+  .nav li{
+    float: right;
+    padding: 0 20px;
+    line-height: 60px;
+    text-decoration:  none ;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: lato;
+    font-weight: 400px;
+  }
+
+  /* .container-2{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 0px, 6px, 6px, 0px;
+    background: rgba(245, 248, 250, 1);
+    position: absolute;
+  } */
+  
+  /* .nav{
+    width: 100%;
+    height: 75px;
+    top: 50px;
+    position: absolute;
+    z-index: 999;
+    background: rgba(245, 248, 250, 1);
+    text-decoration:  none ;
+    border-bottom: 3px #ddd;
+  }
+  .nav li{
+    float: right;
+    padding: 0 20px;
+    line-height: 60px;
+    text-decoration:  none ;
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: lato;
+    font-weight: 400px;
+    
+}
+  .nav li a{
+    text-decoration:  none ;
+    color: black;
+  }
+  .account input{
+    border-radius: 4px; 
+    width: 110px; 
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-family: lato;
+    background: none;
+  }
+  .account{
+    float: right; 
+    padding: 0 5px; 
+    border-radius: 6px; 
+    font-family: lato;
+    font-weight: 400px;
+    font-size: 1.5rem;
+  }
+  .form1{
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  .cvv{
+    margin-top: 18px;
+  }
+  .credit-card input{
+    height: 36px;
+    width: 226px;
+    outline: none;
+    padding:  10px;
+    border-radius: 1px;
+    font-size: 1rem;
+    color: #707070;
+    background: #f1f1f1;
+    border: none;
+  }
+  .form-control{
+    width: 238px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    top: 400px;
+  } */
+}
+
+/* 
+@-ms-viewport{
+  width: device-width;
+} */
